@@ -48,6 +48,5 @@ Delivery options:
 
 - keep small intro text?
 - public pages have one bullet point only
-- what happens when 
 - what happens when there is only one option? (like managing)
 
