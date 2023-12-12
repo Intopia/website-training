@@ -117,209 +117,60 @@
 
   <h2 style="font-size: 30px; margin: 50px 0 20px; color: #147580;">Course outline</h2>
 
-  <h3 style="font-size: 22px; margin: 40px 0 10px; font-weight: bold;">The Accessibility tree and ARIA</h3>
-  <p style="margin-bottom: 1em;">The accessibility tree</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What is the accessibility tree?</li>
-    <li>Activity: Viewing the accessibility tree</li>
-  </ul>
-  <p style="margin-bottom: 1em;">An introduction to ARIA</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What is ARIA?</li>
-    <li>What problems is ARIA trying to solve?</li>
-    <li>Activity: How does ARIA work?</li>
-    <li>Browser support for ARIA</li>
-  </ul>
-  <p style="margin-bottom: 1em;">Accessible names</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What are accessible names?</li>
-    <li>Do accessible names and visible text labels have to match?</li>
-    <li>The aria-labelledby attribute</li>
-    <li>Activity: Adding aria-labelledby</li>
-    <li>The aria-label attribute</li>
-    <li>Activity: Adding aria-label</li>
-    <li>Activity: Reviewing accessible names</li>
-  </ul>
+  <div style="margin: 1em 0; padding: 1em; border: 1px solid #aaa;">
+    <h3 style="font-size: 22px; margin: 0 0 10px; font-weight: bold;">The Accessibility tree and ARIA</h3>
+    <ul style="margin-top: 20px; margin-bottom: 0;">        
+      <li>The accessibility tree</li>
+      <li>An introduction to ARIA</li>
+      <li>Accessible names</li>
+      <li>Accessible descriptions</li>
+      <li>More on accessible names and descriptions</li>
+    </ul>
+  </div>
 
-  <p style="margin-bottom: 1em;">Accessible descriptions</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What are accessible descriptions?</li>
-    <li>The aria-describedby attribute</li>
-    <li>Activity: Adding accessible descriptions</li>
-  </ul>
+  <div style="margin: 1em 0; padding: 1em; border: 1px solid #aaa;">
+    <h3 style="font-size: 22px; margin: 0 0 10px; font-weight: bold;">Semantic markup</h3>
+    <ul style="margin-top: 30px; margin-bottom: 0;">        
+      <li>Valid and semantic markup</li>
+      <li>Headings</li>
+      <li>Landmarks</li>
+      <li>Images</li>
+      <li>Tables</li>
+      <li>Links and buttons</li>
+    </ul>
+  </div>
 
-  <p style="margin-bottom: 1em;">More on accessible names and descriptions</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>Which one wins?</li>
-    <li>How names and descriptions are announced</li>
-  </ul>
+  <div style="margin: 1em 0; padding: 1em; border: 1px solid #aaa;">
+    <h3 style="font-size: 22px; margin: 0 0 10px; font-weight: bold;">Accessible forms</h3>
+    <ul style="margin-top: 30px; margin-bottom: 0;">        
+      <li>An introduction to accessible forms</li>
+      <li>The <code>&lt;label&gt;</code> element</li>
+      <li>The <code>&lt;fieldset&gt;</code> and <code>&lt;legend&gt;</code> elements</li>
+      <li>Form field instructions</li>
+      <li>Required fields</li>
+      <li>Some important form attributes</li>
+    </ul>
+  </div>
 
-  <h3 style="font-size: 22px; margin: 40px 0 10px; font-weight: bold;">Semantic markup</h3>
-  <p style="margin-bottom: 1em;">Valid and semantic markup</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What is valid and markup?</li>
-    <li>HTML Content Categories</li>
-  </ul>
+  <div style="margin: 1em 0; padding: 1em; border: 1px solid #aaa;">
+    <h3 style="font-size: 22px; margin: 0 0 10px; font-weight: bold;">Accessible form notifications</h3>
+    <ul style="margin-top: 30px; margin-bottom: 0;">        
+      <li>Live regions</li>
+      <li>Client side form validation</li>
+      <li>Notifications</li>
+    </ul>
+  </div>
 
-  <p style="margin-bottom: 1em;">Headings</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>Why are headings important for accessibility?</li>
-    <li>Heading hierarchy</li>
-    <li>Site or page headings</li>
-    <li>Avoid "fake" headings</li>
-    <li>Activity: Reviewing heading usage</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Landmarks</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>Why are landmarks important for accessibility?</li>
-    <li>HTML and ARIA landmarks</li>
-    <li>Simple vs complex usage of landmarks</li>
-    <li>The <code>&lt;header&gt;</code> element</li>
-    <li>The <code>&lt;footer&gt;</code> element</li>
-    <li>The <code>&lt;main&gt;</code> element</li>
-    <li>The <code>&lt;nav&gt;</code> element</li>
-    <li>The <code>&lt;aside&gt;</code> element</li>
-    <li>The <code>&lt;section&gt;</code> element</li>
-    <li>The <code>&lt;article&gt;</code> element</li>
-    <li>The <code>&lt;search&gt;</code> role</li>
-    <li>Activity: Reviewing landmark usage</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Images</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>Four types of images</li>
-    <li>Type 1: Decorative images</li>
-    <li>Type 2: Informative images</li>
-    <li>Type 3: Functional images</li>
-    <li>Type 4: Complex images</li>
-    <li>Activity: Reviewing image use</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Tables</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>A quick overview of basic table markup</li>
-    <li>The <code>&lt;caption&gt;</code> element</li>
-    <li>The <code>&lt;th&gt;</code> element</li>
-    <li>Using ARIA to create table structure</li>
-    <li>Activity: Reviewing table use</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Links and buttons</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>Misuse of links and buttons</li>
-    <li>Activity: Clickable card</li>
-  </ul>
-
-  <h3 style="font-size: 22px; margin: 40px 0 10px; font-weight: bold;">Accessible forms</h3>
-
-  <p style="margin-bottom: 1em;">An introduction to accessible forms</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>Forms and assistive technologies</li>
-    <li>Quiz: How well do you know form attributes and elements?</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">The <code>&lt;label&gt;</code> element</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>What is the <code>&lt;label&gt;</code> element?</li>
-    <li>Which form elements require a <code>&lt;label&gt;</code>?</li>
-    <li>Which form elements do not require a <code>&lt;label&gt;</code>?</li>
-    <li>Programmatically associated <code>&lt;label&gt;</code> elements</li>
-    <li>Wrapping the <code>&lt;label&gt;</code> element around form controls</li>
-    <li>Optimal <code>&lt;label&gt;</code> order</li>
-    <li>Activity: Programmatically associating labels and form controls</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">The <code>&lt;fieldset&gt;</code> and <code>&lt;legend&gt;</code> elements</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>The <code>&lt;fieldset&gt;</code> element</li>
-    <li>The <code>&lt;legend&gt;</code> element</li>
-    <li>Why are these elements important for accessibility?</li>
-    <li>Radio and checkbox groups</li>
-    <li>Activity: Making a radio group accessible</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Form field instructions</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>What are form field instructions?</li>
-    <li>Instructions associated with fieldsets</li>
-    <li>Activity: Adding form field instructions</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Required fields</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>How do we inform users of required fields?</li>
-    <li>Programmatically identifiable</li>
-    <li>Visually identifiable</li>
-    <li>Activity: Adding required features</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Some important form attributes</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>The inputmode attribute</li>
-    <li>Activity: Adding the inputmode value</li>
-    <li>The autocomplete attribute</li>
-    <li>Activity: Adding the autocomplete value</li>
-  </ul>
-
-  <h3 style="font-size: 22px; margin: 40px 0 10px; font-weight: bold;">Accessible form notifications</h3>
-  <p style="margin-bottom: 1em;">Live regions</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>What are the problems to address?</li>
-    <li>Live region states and properties</li>
-    <li>Activity: Adding aria-live</li>
-    <li>Live region roles</li>
-    <li>Activity: Adding live regions</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Client side form validation</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>Form field errors</li>
-    <li>Activity: Setting up a form field error</li>
-    <li>Discussion: What do you do with onSubmit errors?</li>
-    <li>onSubmit errors</li>
-    <li>Discussion: Onsubmit demonstration and discussion</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Notifications</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>What are notifications?</li>
-    <li>Discussion: How would you solve these notifications?</li>
-  </ul>
-
-  <h3 style="font-size: 22px; margin: 40px 0 10px; font-weight: bold;">Building accessible components</h3>
-
-  <p style="margin-bottom: 1em;">Introduction to components</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">  
-    <li>What are components?</li>
-    <li>Native vs non-native</li>
-    <li>A component decision tree</li>
-    <li>How to review accessibility</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Accessible modals</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>Discussion: Criteria for accessible modals</li>
-    <li>Activity: Creating an accessible modal</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Accessible in-page tabs</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>Discussion: Criteria for accessible in-page tabs</li>
-    <li>Activity: Making accessible in-page tabs</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Accessible editable comboboxes</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;">
-    <li>Discussion: Criteria for accessible editable comboboxes</li>
-    <li>Activity: Making an accessible editable combobox</li>
-  </ul>
-
-  <p style="margin-bottom: 1em;">Accessible chat windows</p>
-  <ul style="margin-top: 30px; margin-bottom: 30px;"> 
-    <li>Discussion: Criteria for accessible chat windows</li>
-    <li>Activity: Making an accessible chat window</li>
-  </ul>
+  <div style="margin: 1em 0; padding: 1em; border: 1px solid #aaa;">
+    <h3 style="font-size: 22px; margin: 0 0 10px; font-weight: bold;">Building accessible components</h3>
+    <ul style="margin-top: 30px; margin-bottom: 0;">        
+      <li>Introduction to components</li>
+      <li>Accessible modals</li>
+      <li>Accessible in-page tabs</li>
+      <li>Accessible editable comboboxes</li>
+      <li>Accessible chat windows</li>
+    </ul>
+  </div>
 
 </div>
 <!-- CONTENT END -->
