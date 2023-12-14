@@ -6,18 +6,18 @@ A quick repo for website changes.
 
 https://intopia.github.io/website-training/
 
-## Pages done
+## Pages
 
-- 2	Free Introduction to digital accessibility - DONE
-- 3	Managing accessibility in digital projects - DONE
-- 4	Designing for digital accessibility - DONE
-- 5	Developing for web accessibility - DONE
-- 7	Writing accessibility requirements - DONE
-- 8	Creating accessible content for UX and forms
-- 9	Creating accessible content for web and documents
-- 10 Creating accessible native apps - DONE
-- 11 Conducting user research with people with disability - DONE
-- 12 Accessibility testing with NVDA - DONE
-- 13 to come
-- 14	Testing web accessibility for teams - DONE
-- 15	Creating accessible emails - DONE
+- 02: Free Introduction to digital accessibility
+- 03: Managing accessibility in digital projects
+- 04: Designing for digital accessibility
+- 05: Developing for web accessibility
+- 07: Writing accessibility requirements
+- 08: Creating accessible content for UX and forms
+- 09: Creating accessible content for web and documents
+- 10: Creating accessible native apps
+- 11: Conducting user research with people with disability
+- 12: Accessibility testing with NVDA
+- 13: Creating accessible content for social media and multimedia
+- 14: Testing web accessibility for teams
+- 15: Creating accessible emails
