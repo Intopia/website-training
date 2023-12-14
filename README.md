@@ -6,47 +6,17 @@ A quick repo for website changes.
 
 https://intopia.github.io/website-training/
 
-## public vs private
+## Pages
 
-public cannot contain prices or course outlines
-
-## Questions
-
-### 1. Training home
-
-Why Intopia training?:
-
-- text ok?
-
-Delivery options:
-
-- options ok?
-- text under each option ok?
-- CTAs under each option ok?
-
-Our courses:
-
-- Do we need these, or should we simply link off from the table?
-
-Our trainers:
-
-- heading ok? "Trainers", "Educators"
-- should we include on the page?
-
-### 2. Free ‘Introduction to digital accessibility’ session
-
-- Intro paragraph ok on its own?
-- Thoughts on the page overall?
-
-### 3. Developing for web accessibility
-
-Who should attend:
-
-- under its own heading?
-
-Delivery options:
-
-- keep small intro text?
-- public pages have one bullet point only
-- what happens when there is only one option? (like managing)
-
+- 2	Free Introduction to digital accessibility - DONE
+- 3	Managing accessibility in digital projects - DONE
+- 4	Designing for digital accessibility - DONE
+- 5	Developing for web accessibility - DONE
+- 7	Writing accessibility requirements
+- 8	Creating accessible content for UX and forms
+- 9	Creating accessible content for web and documents
+- 10	Creating accessible native apps - DONE
+- 11	Conducting user research with people with disability - DONE
+- 12	Accessibility testing with NVDA
+- 14	Testing web accessibility for teams - DONE
+- 15	Creating accessible emails - DONE
