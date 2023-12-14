@@ -12,7 +12,7 @@ https://intopia.github.io/website-training/
 - 3	Managing accessibility in digital projects - DONE
 - 4	Designing for digital accessibility - DONE
 - 5	Developing for web accessibility - DONE
-- 7	Writing accessibility requirements
+- 7	Writing accessibility requirements - DONE
 - 8	Creating accessible content for UX and forms
 - 9	Creating accessible content for web and documents
 - 10	Creating accessible native apps - DONE
